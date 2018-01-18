@@ -1,0 +1,165 @@
+{
+  "name": "TEMPLATES",
+  "children": [
+    {
+      "name": "DjangoTemplates",
+      "children": [
+        {
+          "name": "__unknown__",
+          "children": [
+            {
+              "name": "app2/base.html"
+            }
+          ]
+        },
+        {
+          "name": "base.html",
+          "children": [
+            {
+              "name": "app0/base.html"
+            },
+            {
+              "name": "app1/base.html"
+            }
+          ]
+        },
+        {
+          "name": "error.html"
+        },
+        {
+          "name": "registration/password_reset_subject.txt"
+        },
+        {
+          "name": "template_tree/base.html"
+        },
+        {
+          "name": "template_tree/tree.html"
+        },{
+          "name": "__unknown__",
+          "children": [
+            {
+              "name": "app2/base.html"
+            }
+          ]
+        },
+        {
+          "name": "base.html",
+          "children": [
+            {
+              "name": "app0/base.html"
+            },
+            {
+              "name": "app1/base.html"
+            }
+          ]
+        },
+        {
+          "name": "error.html"
+        },
+        {
+          "name": "registration/password_reset_subject.txt"
+        },
+        {
+          "name": "template_tree/base.html"
+        },
+        {
+          "name": "template_tree/tree.html"
+        },{
+          "name": "__unknown__",
+          "children": [
+            {
+              "name": "app2/base.html"
+            }
+          ]
+        },
+        {
+          "name": "base.html",
+          "children": [
+            {
+              "name": "app0/base.html"
+            },
+            {
+              "name": "app1/base.html"
+            }
+          ]
+        },
+        {
+          "name": "error.html"
+        },
+        {
+          "name": "registration/password_reset_subject.txt"
+        },
+        {
+          "name": "template_tree/base.html"
+        },
+        {
+          "name": "template_tree/tree.html"
+        },{
+          "name": "__unknown__",
+          "children": [
+            {
+              "name": "app2/base.html"
+            }
+          ]
+        },
+        {
+          "name": "base.html",
+          "children": [
+            {
+              "name": "app0/base.html"
+            },
+            {
+              "name": "app1/base.html",
+              "children": [
+              {
+                "name": "app0/base.html",
+                "children": [
+            {
+              "name": "app0/base.html"
+            },
+            {
+              "name": "app1/base.html","children": [
+            {
+              "name": "app0/base.html"
+            },
+            {
+              "name": "app1/base.html"
+            }
+          ]
+            }
+          ]
+              },
+              {
+                "name": "app1/base.html"
+              }
+            ]
+            }
+          ]
+        },
+        {
+          "name": "error.html"
+        },
+        {
+          "name": "registration/password_reset_subject.txt"
+        },
+        {
+          "name": "template_tree/base.html"
+        },
+        {
+          "name": "template_tree/tree.html"
+        }
+      ]
+    },
+    {
+      "name": "Jinja2",
+      "children": [
+        {
+          "name": "base.html"
+        },
+        {
+          "name": "error.html"
+        }
+      ]
+    }
+  ]
+}

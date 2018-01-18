@@ -1,0 +1,9 @@
+# Your app requirements.
+-r ../requirements_test.txt
+
+# Your app in editable mode.
+-e ../
+
+# Jinja2 does not contribute to the running of the example application
+# but it is required in order to not simply die when it encounters the jinja2 definitions
+jinja2

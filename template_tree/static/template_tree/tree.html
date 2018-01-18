@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <style type="text/css">
+
+#body {
+ height: 100vh;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 11px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+      .vis {
+        border:1px solid black;
+        margin-left:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="body">
+    </div>
+    <script type="text/javascript">
+
+
+
+
+    </script>
+    <script type="text/javascript" src="/static/js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/static/js/django_template_tree.js"></script>
+
+    <script type="text/javascript">
+      var margins = [0,500,0,0],
+    w = 1280 - margins[1] - margins[3],
+    h = 800 - margins[0] - margins[2],
+    i = 0,
+    root;
+
+      var tree = d3.layout.tree()
+          .size([h, w]);
+
+      var svgroot = d3.select("#body").append("svg:svg")
+          .attr("width", w + margins[1] + margins[3])
+          .attr("height", (h + margins[0] + margins[2]))
+          .attr("class", "vis");
+
+      var vis = svgroot.append("svg:g")
+          .attr("transform", "translate(" + 0  + "," + 0+ ")");
+
+
+      d3.json("test.json", function(json) {
+        root = json;
+        root.x0 = h / 2;
+        root.y0 = 0;
+
+        update(root);
+      });
+</script>
+  </body>
+</html>
