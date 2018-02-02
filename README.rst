@@ -51,7 +51,11 @@ Features
 
 Displays a collapsible tree diagram showing the hierarchy of templates used by a Django application.
 
+.. image:: screenshot.png
+
 Nodes can be collapsed and expanded, by clicking on them.
+
+.. image:: screenshot-collapsed.png
 
 Apps can be filtered out of the tree, using the 'exclude_app' querystring parameter, thus:
 
