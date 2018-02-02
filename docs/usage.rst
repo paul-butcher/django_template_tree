@@ -31,9 +31,9 @@ that you wish to keep secret.
 
 Visiting the URL in a browser will show a template inheritance diagram like this one:
 
-.. image:: screenshot.png
+.. image:: _static/screenshot.png
 
 Nodes can be collapsed (by clicking), in order to improve clarity or illustrate a particular line
 of inheritance.
 
-.. image:: screenshot-collapsed.png
+.. image:: _static/screenshot-collapsed.png
