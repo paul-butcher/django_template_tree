@@ -3,7 +3,7 @@ django-template_tree
 =============================
 
 .. image:: https://badge.fury.io/py/django_template_tree.svg
-    :target: https://badge.fury.io/py/django_template_tree
+    :target: https://badge.fury.io/py/django-template-tree
 
 .. image:: https://travis-ci.org/paul-butcher/django_template_tree.svg?branch=master
     :target: https://travis-ci.org/paul-butcher/django_template_tree
